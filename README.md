@@ -1,2 +1,2 @@
-# imagelearning
-exploratory image learning study
+# Image Learning@ BinChenLab
+This repo is an exploration of image learning concepts and programs
