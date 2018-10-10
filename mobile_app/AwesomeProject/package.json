@@ -1,0 +1,23 @@
+{
+  "name": "my-new-project",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-navigation": "^2.16.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-react-native": "^18.0.0"
+  }
+}
