@@ -1,0 +1,16 @@
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\bin\Debug\netstandard2.0\Bin_chen_app.deps.json
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\bin\Debug\netstandard2.0\Bin_chen_app.dll
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\bin\Debug\netstandard2.0\Bin_chen_app.pdb
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.csprojAssemblyReference.cache
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.csproj.CoreCompileInputs.cache
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.AssemblyInfoInputs.cache
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.AssemblyInfo.cs
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.dll
+C:\Users\schmi\Documents\BinChenLab\Bin_chen_app\Bin_chen_app\Bin_chen_app\obj\Debug\netstandard2.0\Bin_chen_app.pdb
