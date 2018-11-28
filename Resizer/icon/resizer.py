@@ -1,6 +1,9 @@
+#useful image resizer for iphone icons, works better than my short photo_resizer.py Script
+#influenced from https://dorukgezici.github.io/ios-app-icon-generator-script/
+
 import os, sys
-import json from PIL
-import Image from PIL import ImageFilter
+import json
+from PIL import Image,ImageFilter
 
 valid_images = [".jpg",".png"]
 filename = None
@@ -20,9 +23,12 @@ json_data = { "images":[ { "idiom":"iphone", "size":"29x29", "scale":"1x", "file
 if os.access("AppIcon.appiconset", os.W_OK) == False:
   os.mkdir("AppIcon.appiconset")
   file = open("AppIcon.appiconset/Contents.json", mode="w")
-  json.dump(json_data, file, indent=4, sort_keys=True, separators=(',', ':')) file.close()
+  json.dump(json_data, file, indent=4, sort_keys=True, separators=(',', ':'))
+  file.close()
 
-def get_size(image): size_str = image["size"] i = size_str.find("x")
+def get_size(image):
+  size_str = image["size"]
+  i = size_str.find("x")
   size = (float(size_str[:i]),float(size_str[i+1:]))
   scale_str = image["scale"]
   j = scale_str.find("x")
@@ -37,8 +43,7 @@ with open("AppIcon.appiconset/Contents.json", mode="r") as data_file:
     print(im.format, im.size, im.mode)
   except IOError: print("Image not found")
 
-for image in images:
-  size = get_size(image)
-
-out = im.resize(size, Image.ANTIALIAS)
-out.save("AppIcon.appiconset/"+image["filename"], format="PNG") 
+  for image in images:
+      size = get_size(image)
+      out = im.resize(size, Image.ANTIALIAS)
+      out.save("AppIcon.appiconset/"+image["filename"], format="PNG")
