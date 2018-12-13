@@ -1,0 +1,3 @@
+rootProject.name = 'image_learning_app'
+
+include ':app'
